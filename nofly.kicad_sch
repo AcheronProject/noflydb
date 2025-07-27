@@ -1374,23 +1374,25 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "H"
-				(at 0 6.35 0)
+			(property "Reference" "H1"
+				(at 2.54 2.5401 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "MountingHole_Pad_MP"
-				(at 0 4.445 0)
+			(property "Value" "Mount"
+				(at 2.54 0.0001 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1459,7 +1461,7 @@
 							)
 						)
 					)
-					(number "MP"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2271,16 +2273,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 41.91) (xy 38.1 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b871947b-4839-4812-bd14-8cbce48fe11d")
-	)
-	(wire
-		(pts
 			(xy 127 51.435) (xy 127 53.975)
 		)
 		(stroke
@@ -2849,7 +2841,7 @@
 				)
 			)
 		)
-		(property "Value" "ASMD0805H050"
+		(property "Value" "SMD0805-050"
 			(at 184.15 67.0814 90)
 			(effects
 				(font
@@ -2884,7 +2876,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Shenzhen JDT Fuse"
+		(property "Manufacturer" "TECHFUSE"
 			(at 184.15 69.85 90)
 			(effects
 				(font
@@ -2893,7 +2885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "ASMD0805H050"
+		(property "Manufacturer Part Number" "SMD0805-050 "
 			(at 184.15 69.85 90)
 			(effects
 				(font
@@ -2902,7 +2894,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C48783086"
+		(property "LCSC Part Number" "C66452"
 			(at 184.15 69.85 90)
 			(effects
 				(font
@@ -2985,6 +2977,42 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "USBLC6-2P6"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C15999"
+			(at 184.15 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-666"
 			(at 184.15 43.18 0)
 			(effects
 				(font
@@ -3218,7 +3246,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 38.1 44.45 0)
+		(at 38.1 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3227,7 +3255,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a49c949-a6b3-4ee7-86e1-915ec74ac876")
 		(property "Reference" "#PWR01"
-			(at 38.1 50.8 0)
+			(at 38.1 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +3264,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 49.53 0)
+			(at 38.1 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3244,7 +3272,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 44.45 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3253,7 +3281,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 44.45 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3262,7 +3290,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 38.1 44.45 0)
+			(at 38.1 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3366,7 +3394,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "TYPE-C-31-M-12"
 			(at 111.76 29.21 0)
 			(effects
 				(font
@@ -3393,6 +3421,42 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 111.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Koren Hroparts"
+			(at 111.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TYPE-C-31-M-12 "
+			(at 111.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C165948"
+			(at 111.76 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 111.76 48.895 0)
 			(effects
 				(font
@@ -3611,7 +3675,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x04"
+		(property "Value" "781710004"
 			(at 250.19 39.3699 0)
 			(effects
 				(font
@@ -3639,6 +3703,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MOLEX"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "781710004"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C588524"
+			(at 247.65 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
 			(at 247.65 36.83 0)
 			(effects
 				(font
@@ -3723,7 +3823,7 @@
 				(hide yes)
 			)
 		)
-		(pin "MP"
+		(pin "1"
 			(uuid "b8ef4aff-419f-43ea-a456-4c8b17dbd3f5")
 		)
 		(instances
