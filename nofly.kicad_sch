@@ -2994,7 +2994,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005c91b0d9")
 		(property "Reference" "R2"
-			(at 130.81 39.37 90)
+			(at 130.81 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3098,7 +3098,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 0.508 0.508)
+					(size 0.762 0.762)
 				)
 			)
 		)
@@ -4069,15 +4069,14 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x04_MountingPin"
-			(at 248.92 44.45 0)
+		(property "Value" "781710004"
+			(at 247.65 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "acheron_Connectors:MOLEX_PicoEZMate_781710004"
