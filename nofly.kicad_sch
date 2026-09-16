@@ -3228,7 +3228,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
 			(at 183.134 49.911 0)
 			(hide yes)
 			(show_name no)
@@ -3264,7 +3264,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Manufacturer" "YTL"
 			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -3286,7 +3286,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C15999"
+		(property "LCSC Part Number" "C53059594"
 			(at 184.15 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -4069,7 +4069,7 @@
 				)
 			)
 		)
-		(property "Value" "781710004"
+		(property "Value" "781710004 / M1201RS-04-BK"
 			(at 247.65 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +4112,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "MOLEX"
+		(property "Manufacturer" "XFCN"
 			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4134,7 +4134,7 @@
 				)
 			)
 		)
-		(property "LCSC Part Number" "C588524"
+		(property "LCSC Part Number" "C2840019"
 			(at 247.65 36.83 0)
 			(hide yes)
 			(show_name no)
