@@ -3056,6 +3056,39 @@
 				)
 			)
 		)
+		(property "LCSC Part Number" "C25905"
+			(at 130.81 41.275 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal"
+			(at 130.81 41.275 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
+			(at 130.81 41.275 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50047b33-01d7-46a0-ba92-b220b8625db1")
 		)
