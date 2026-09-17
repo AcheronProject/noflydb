@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../release/gerbers",
+      "plot": "release/gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "nofly_260725.step",
@@ -541,7 +541,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "../release/${PROJECTNAME}_BOM_F401.csv",
+    "bom_export_filename": "release/nofly.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",

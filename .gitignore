@@ -27,3 +27,5 @@ fp-info-cache
 *.ini
 
 .history/
+
+release/
