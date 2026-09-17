@@ -2202,7 +2202,7 @@
 	)
 	(text "EZM"
 		(exclude_from_sim no)
-		(at 247.65 82.55 0)
+		(at 247.65 83.82 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2214,7 +2214,7 @@
 	)
 	(text "USB"
 		(exclude_from_sim no)
-		(at 120.65 95.25 0)
+		(at 120.65 83.82 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2238,7 +2238,7 @@
 	)
 	(text "PROTECTION"
 		(exclude_from_sim no)
-		(at 184.15 95.25 0)
+		(at 184.15 83.82 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -2550,17 +2550,17 @@
 	)
 	(global_label "DO-"
 		(shape bidirectional)
-		(at 179.07 43.18 180)
+		(at 189.23 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "017b7ab8-ab3e-43f3-952f-7a989eed4174")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8006 43.18 0)
+			(at 195.8452 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2568,7 +2568,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
@@ -2646,17 +2646,17 @@
 	)
 	(global_label "D-"
 		(shape bidirectional)
-		(at 179.07 45.72 180)
+		(at 179.07 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify right)
 		)
 		(uuid "90c305ab-d2a5-481a-b41d-2cc428eeb585")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.1311 45.72 0)
+			(at 173.5192 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2718,17 +2718,17 @@
 	)
 	(global_label "D+"
 		(shape bidirectional)
-		(at 189.23 45.72 0)
+		(at 179.07 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "eaa5eb9c-7851-4df9-94d5-6d9d40eedc76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.1689 45.72 0)
+			(at 173.5192 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2736,7 +2736,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -2766,17 +2766,17 @@
 	)
 	(global_label "DO+"
 		(shape bidirectional)
-		(at 189.23 43.18 0)
+		(at 189.23 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 			(justify left)
 		)
 		(uuid "f55f2f7a-0a91-42d8-aa5d-7d5ba4d91b09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.4994 43.18 0)
+			(at 195.8452 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
